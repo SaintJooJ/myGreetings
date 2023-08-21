@@ -1,11 +1,11 @@
-package mygreetings.restservice;
+package mygreetings;
 
-public class Greetings {
+public class Greeting {
 
 private long id;
 private String name;
 
-public Greetings(long id, String name) {
+public Greeting(long id, String name) {
 super();
 this.id = id;
 this.name = name;
